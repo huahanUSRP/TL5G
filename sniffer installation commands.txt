@@ -1,0 +1,62 @@
+Precondition:
+1. Ubuntu is installed
+2. docker-compose.yml and Dockerfile are saved at some folder 
+
+
+Installation steps
+
+# folder creation and docker file preparation
+mkdir tool
+cd tool
+mkdir sni5gect
+cd sni5gect
+cp $path/docker-compose.yml .
+cp $path/Dockerfile .
+
+# Install required system packages for Docker repository setup
+sudo apt install -y ca-certificates curl gnupg
+
+# Create directory for APT keyrings
+sudo install -m 0755 -d /etc/apt/keyrings
+
+# Download and install Docker official GPG key
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg
+
+# Set correct permissions for Docker GPG key
+sudo chmod a+r /etc/apt/keyrings/docker.gpg
+
+# Add Docker official repository to APT sources
+echo "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu $(. /etc/os-release && echo $VERSION_CODENAME) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+
+# Update APT package list after adding Docker repository
+sudo apt update
+
+# Install Docker Compose v2 plugin
+sudo apt install -y docker-compose-plugin
+
+# Verify Docker Compose installation
+docker compose version
+
+# Add current user to docker group to avoid using sudo
+sudo usermod -aG docker $USER
+
+# Refresh group membership in current shell
+newgrp docker
+
+# Verify Docker daemon access without sudo
+docker info >/dev/null && echo "Docker permission OK"
+
+# Change directory to the sni5gect project
+cd ~/tool/sni5gect
+
+# Build the Docker image for the sni5gect service
+docker compose build sni5gect
+
+# Start the sni5gect container in detached mode
+docker compose up -d sni5gect
+
+# Enter the running sni5gect container interactively
+docker exec -it sni5gect bash
+
+Note:
+GitHub → Settings → Developer settings → Personal access tokens
