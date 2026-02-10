@@ -1,0 +1,25 @@
+How to set simba shared folder
+
+On host linux
+
+         sudo apt update        
+         sudo apt install samba        
+         sudo mkdir -p /srv/shared        
+         sudo chmod 2775 /srv/shared        
+         sudo chown nobody:nogroup /srv/shared        
+         sudo nano /etc/samba/smb.conf        
+         sudo systemctl restart smbd        
+         cd /srv/shared        
+         ll        
+         subl testsmb.txt        
+         ll
+
+
+On client
+          sudo mkdir -p /mnt/shared
+          sudo nano /etc/fstab
+          Add
+          //10.87.88.255/Shared  /mnt/shared  cifs  guest,vers=3.0,x-systemd.automount,_netdev,nofail  0  0
+          Test with 
+          sudo mount -a
+          ls /mnt/shared

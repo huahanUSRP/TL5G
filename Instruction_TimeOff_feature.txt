@@ -1,0 +1,82 @@
+This is an instruction about how to get "Time diff" and collect IQ data. 
+
+1. Set UE to airplane mode
+
+2. Open sniffer "sni5gect" in one terminal
+sudo docker exec -it sni5gect bash
+
+3. Run receiver python script with
+~/sni5gect# /bin/python3 /root/sni5gect/shadower/comp/apis/receiver.py
+
+4. Open sniffer "sni5gect" in another terminal 
+sudo docker exec -it sni5gect bash
+
+5. Run sniffing command 
+./build/shadower/shadower configs/srsran-n78-20MHz-x310.yaml
+Note: "srsran-n78-20MHz-x310.yaml" is the sniffer configuraton file 
+
+6. Disable airplan mode
+
+7. Check receiver terminal. Some log like below will be displayed. "Time diff" is the information requested for localization algorithm. 
+   For each PUSCH receiving, there is one "Time diff" calculated. 
+
+~/sni5gect# /bin/python3 /root/sni5gect/shadower/comp/apis/receiver.py
+Listening for uplink API messages...
+Received uplink message for RNTI: 17957 0
+  Slot index: 13597
+  Task index: 8428
+  SF length: 23040
+  Offset: 352
+  SNR (dB): 31.36311912536621
+  Time (secs): 1770623815 + 0.5659050021701388
+  Time diff (secs): 1.5319456283911374e-05  Samples:  352.96027278131805
+  No. of PRBs: 51
+  Start symbol: 0
+  No. of symbols: 14
+  UL PRB used: 000000001110000000000000000000000000000000000000000
+Received uplink message for RNTI: 17957 0
+  Slot index: 13787
+  Task index: 8523
+  SF length: 23040
+  Offset: 352
+  SNR (dB): 29.939693450927734
+  Time (secs): 1770623815 + 0.660905002170139
+  Time diff (secs): 1.5267970820753538e-05  Samples:  351.77404771016154
+  No. of PRBs: 51
+  Start symbol: 0
+  No. of symbols: 14
+  UL PRB used: 000000001111110000000000000000000000000000000000000
+Received uplink message for RNTI: 17957 0
+  Slot index: 13827
+  Task index: 8543
+  SF length: 23040
+  Offset: 352
+  SNR (dB): 29.691556930541992
+  Time (secs): 1770623815 + 0.6809050021701389
+  Time diff (secs): 1.525934812530699e-05  Samples:  351.5753808070731
+  No. of PRBs: 51
+  Start symbol: 0
+  No. of symbols: 14
+  ...
+
+  8. IQ data will be saved to path "logs/". File format is pusch_taskidx_slotidx.fc32. With this, "time off" can be link to IQ data file.
+
+-rw-r--r-- 1 root root 184320 Feb  9 15:56 pusch_8428_13597.fc32
+-rw-r--r-- 1 root root 184320 Feb  9 15:56 pusch_8523_13787.fc32
+-rw-r--r-- 1 root root 184320 Feb  9 15:56 pusch_8543_13827.fc32
+-rw-r--r-- 1 root root 184320 Feb  9 15:56 pusch_8583_13907.fc32
+-rw-r--r-- 1 root root 184320 Feb  9 15:56 pusch_8643_14027.fc32
+-rw-r--r-- 1 root root 184320 Feb  9 15:56 pusch_8653_14047.fc32
+-rw-r--r-- 1 root root 184320 Feb  9 15:56 pusch_8683_14107.fc32
+-rw-r--r-- 1 root root 184320 Feb  9 15:56 pusch_8703_14147.fc32
+-rw-r--r-- 1 root root 184320 Feb  9 15:56 pusch_8803_14347.fc32
+-rw-r--r-- 1 root root 184320 Feb  9 15:56 pusch_8823_14387.fc32
+-rw-r--r-- 1 root root 184320 Feb  9 15:56 pusch_8883_14507.fc32
+.....
+
+
+9. copy log file out of docker
+docker cp sni5gect:/root/sni5gect/logs .
+
+
+

@@ -1,0 +1,422 @@
+~/sni5gect# /bin/python3 /root/sni5gect/shadower/comp/apis/receiver.py
+Listening for uplink API messages...
+Received uplink message for RNTI: 17957 0
+  Slot index: 13597
+  Task index: 8428
+  SF length: 23040
+  Offset: 352
+  SNR (dB): 31.36311912536621
+  Time (secs): 1770623815 + 0.5659050021701388
+  Time diff (secs): 1.5319456283911374e-05  Samples:  352.96027278131805
+  No. of PRBs: 51
+  Start symbol: 0
+  No. of symbols: 14
+  UL PRB used: 000000001110000000000000000000000000000000000000000
+Received uplink message for RNTI: 17957 0
+  Slot index: 13787
+  Task index: 8523
+  SF length: 23040
+  Offset: 352
+  SNR (dB): 29.939693450927734
+  Time (secs): 1770623815 + 0.660905002170139
+  Time diff (secs): 1.5267970820753538e-05  Samples:  351.77404771016154
+  No. of PRBs: 51
+  Start symbol: 0
+  No. of symbols: 14
+  UL PRB used: 000000001111110000000000000000000000000000000000000
+Received uplink message for RNTI: 17957 0
+  Slot index: 13827
+  Task index: 8543
+  SF length: 23040
+  Offset: 352
+  SNR (dB): 29.691556930541992
+  Time (secs): 1770623815 + 0.6809050021701389
+  Time diff (secs): 1.525934812530699e-05  Samples:  351.5753808070731
+  No. of PRBs: 51
+  Start symbol: 0
+  No. of symbols: 14
+  UL PRB used: 000000001111110000000000000000000000000000000000000
+Received uplink message for RNTI: 17957 0
+  Slot index: 13907
+  Task index: 8583
+  SF length: 23040
+  Offset: 352
+  SNR (dB): 30.14598846435547
+  Time (secs): 1770623815 + 0.7209050021701389
+  Time diff (secs): 1.5237022947156396e-05  Samples:  351.0610087024834
+  No. of PRBs: 51
+  Start symbol: 0
+  No. of symbols: 14
+  UL PRB used: 000000001111110000000000000000000000000000000000000
+Received uplink message for RNTI: 17957 0
+  Slot index: 14027
+  Task index: 8643
+  SF length: 23040
+  Offset: 350
+  SNR (dB): 29.0650577545166
+  Time (secs): 1770623815 + 0.7809050889756944
+  Time diff (secs): 1.5206518398935662e-05  Samples:  350.3581839114777
+  No. of PRBs: 51
+  Start symbol: 0
+  No. of symbols: 14
+  UL PRB used: 000000001111110000000000000000000000000000000000000
+Received uplink message for RNTI: 17957 0
+  Slot index: 14047
+  Task index: 8653
+  SF length: 23040
+  Offset: 350
+  SNR (dB): 22.58441925048828
+  Time (secs): 1770623815 + 0.7909050889756944
+  Time diff (secs): 1.5198125282588471e-05  Samples:  350.1648065108384
+  No. of PRBs: 51
+  Start symbol: 0
+  No. of symbols: 14
+  UL PRB used: 000000001111111110000000000000000000000000000000000
+Received uplink message for RNTI: 17957 0
+  Slot index: 14107
+  Task index: 8683
+  SF length: 23040
+  Offset: 350
+  SNR (dB): 27.75899314880371
+  Time (secs): 1770623815 + 0.8209050889756945
+  Time diff (secs): 1.5180823960435753e-05  Samples:  349.76618404843975
+  No. of PRBs: 51
+  Start symbol: 0
+  No. of symbols: 14
+  UL PRB used: 000000001111110000000000000000000000000000000000000
+Received uplink message for RNTI: 17957 0
+  Slot index: 14147
+  Task index: 8703
+  SF length: 23040
+  Offset: 350
+  SNR (dB): 27.547712326049805
+  Time (secs): 1770623815 + 0.8409050889756945
+  Time diff (secs): 1.5171772897425562e-05  Samples:  349.55764755668497
+  No. of PRBs: 51
+  Start symbol: 0
+  No. of symbols: 14
+  UL PRB used: 000000001111110000000000000000000000000000000000000
+Received uplink message for RNTI: 17957 0
+  Slot index: 14347
+  Task index: 8803
+  SF length: 23040
+  Offset: 348
+  SNR (dB): 27.303911209106445
+  Time (secs): 1770623815 + 0.9409051757812501
+  Time diff (secs): 1.5123168951668554e-05  Samples:  348.4378126464435
+  No. of PRBs: 51
+  Start symbol: 0
+  No. of symbols: 14
+  UL PRB used: 000000001111110000000000000000000000000000000000000
+Received uplink message for RNTI: 17957 0
+  Slot index: 14387
+  Task index: 8823
+  SF length: 23040
+  Offset: 348
+  SNR (dB): 28.05862808227539
+  Time (secs): 1770623815 + 0.9609051757812501
+  Time diff (secs): 1.513252900314607e-05  Samples:  348.65346823248547
+  No. of PRBs: 51
+  Start symbol: 0
+  No. of symbols: 14
+  UL PRB used: 000000001111110000000000000000000000000000000000000
+Received uplink message for RNTI: 17957 0
+  Slot index: 14507
+  Task index: 8883
+  SF length: 23040
+  Offset: 348
+  SNR (dB): 27.817161560058594
+  Time (secs): 1770623816 + 0.020905175781250004
+  Time diff (secs): 1.5133293738976287e-05  Samples:  348.67108774601365
+  No. of PRBs: 51
+  Start symbol: 0
+  No. of symbols: 14
+  UL PRB used: 000000001111110000000000000000000000000000000000000
+Received uplink message for RNTI: 17957 0
+  Slot index: 17607
+  Task index: 10433
+  SF length: 23040
+  Offset: 355
+  SNR (dB): 15.352855682373047
+  Time (secs): 1770623817 + 0.5709048719618056
+  Time diff (secs): 1.5419616093246683e-05  Samples:  355.2679547884036
+  No. of PRBs: 51
+  Start symbol: 0
+  No. of symbols: 14
+  UL PRB used: 000000001111111111111100000000000000000000000000000
+Received uplink message for RNTI: 17957 0
+  Slot index: 3667
+  Task index: 13703
+  SF length: 23040
+  Offset: 355
+  SNR (dB): -5.081408500671387
+  Time (secs): 1770623820 + 0.8409048719618056
+  Time diff (secs): 1.538441313642775e-05  Samples:  354.4568786632954
+  No. of PRBs: 51
+  Start symbol: 0
+  No. of symbols: 14
+  UL PRB used: 000000001111111111111111111111111111111111100000000
+Received uplink message for RNTI: 17957 0
+  Slot index: 3889
+  Task index: 13814
+  SF length: 23040
+  Offset: 357
+  SNR (dB): -7.073238372802734
+  Time (secs): 1770623820 + 0.95190478515625
+  Time diff (secs): 1.552671805805201e-05  Samples:  357.73558405751834
+  No. of PRBs: 51
+  Start symbol: 0
+  No. of symbols: 14
+  UL PRB used: 000000001111111111111111111111111111111111100000000
+Received uplink message for RNTI: 17957 0
+  Slot index: 3897
+  Task index: 13818
+  SF length: 23040
+  Offset: 357
+  SNR (dB): -9.693120956420898
+  Time (secs): 1770623820 + 0.9559047851562501
+  Time diff (secs): 1.5482105119742567e-05  Samples:  356.7077019588687
+  No. of PRBs: 51
+  Start symbol: 0
+  No. of symbols: 14
+  UL PRB used: 000000001111111111111111111111111111111111100000000
+Received uplink message for RNTI: 17957 0
+  Slot index: 3899
+  Task index: 13819
+  SF length: 23040
+  Offset: 355
+  SNR (dB): 9.758904457092285
+  Time (secs): 1770623820 + 0.9569048719618055
+  Time diff (secs): 1.5446592639674844e-05  Samples:  355.88949441810837
+  No. of PRBs: 51
+  Start symbol: 0
+  No. of symbols: 14
+  UL PRB used: 000000000000000000000000000011111111111111100000000
+Received uplink message for RNTI: 17957 0
+  Slot index: 4127
+  Task index: 13933
+  SF length: 23040
+  Offset: 355
+  SNR (dB): -0.9860773086547852
+  Time (secs): 1770623821 + 0.07090487196180556
+  Time diff (secs): 1.5411851857500777e-05  Samples:  355.0890667968179
+  No. of PRBs: 51
+  Start symbol: 0
+  No. of symbols: 14
+  UL PRB used: 000000001111111111111111111111111111111111100000000
+Received uplink message for RNTI: 17957 0
+  Slot index: 4129
+  Task index: 13934
+  SF length: 23040
+  Offset: 357
+  SNR (dB): -4.984779357910156
+  Time (secs): 1770623821 + 0.07190478515625
+  Time diff (secs): 1.5515665715011237e-05  Samples:  357.4809380738589
+  No. of PRBs: 51
+  Start symbol: 0
+  No. of symbols: 14
+  UL PRB used: 000000001111111111111111111111111111111111100000000
+Received uplink message for RNTI: 17959 0
+  Slot index: 20297
+  Task index: 32258
+  SF length: 23040
+  Offset: 365
+  SNR (dB): 35.42937088012695
+  Time (secs): 1770623839 + 0.3959044379340278
+  Time diff (secs): 1.5878051868579252e-05  Samples:  365.83031505206594
+  No. of PRBs: 51
+  Start symbol: 0
+  No. of symbols: 14
+  UL PRB used: 000000001110000000000000000000000000000000000000000
+Received uplink message for RNTI: 17959 0
+  Slot index: 20387
+  Task index: 32303
+  SF length: 23040
+  Offset: 365
+  SNR (dB): 8.485806465148926
+  Time (secs): 1770623839 + 0.4409044379340278
+  Time diff (secs): 1.5836648208100316e-05  Samples:  364.8763747146313
+  No. of PRBs: 51
+  Start symbol: 0
+  No. of symbols: 14
+  UL PRB used: 000000001111111111111111111111110000000000000000000
+Received uplink message for RNTI: 17959 0
+  Slot index: 20467
+  Task index: 32343
+  SF length: 23040
+  Offset: 365
+  SNR (dB): 10.651714324951172
+  Time (secs): 1770623839 + 0.4809044379340278
+  Time diff (secs): 1.5822409144394415e-05  Samples:  364.54830668684735
+  No. of PRBs: 51
+  Start symbol: 0
+  No. of symbols: 14
+  UL PRB used: 000000001111111111111111111111110000000000000000000
+Received uplink message for RNTI: 17959 0
+  Slot index: 27
+  Task index: 32363
+  SF length: 23040
+  Offset: 365
+  SNR (dB): 8.762617111206055
+  Time (secs): 1770623839 + 0.5009044379340277
+  Time diff (secs): 1.581428923076405e-05  Samples:  364.3612238768037
+  No. of PRBs: 51
+  Start symbol: 0
+  No. of symbols: 14
+  UL PRB used: 000000001111111111111111111000000000000000000000000
+Received uplink message for RNTI: 17959 0
+  Slot index: 57
+  Task index: 32378
+  SF length: 23040
+  Offset: 365
+  SNR (dB): 12.488470077514648
+  Time (secs): 1770623839 + 0.5159044379340277
+  Time diff (secs): 1.5812159284766695e-05  Samples:  364.3121499210247
+  No. of PRBs: 51
+  Start symbol: 0
+  No. of symbols: 14
+  UL PRB used: 000000001111111111111111111111111111111111100000000
+Received uplink message for RNTI: 17959 0
+  Slot index: 58
+  Task index: 32379
+  SF length: 23040
+  Offset: 365
+  SNR (dB): 11.978971481323242
+  Time (secs): 1770623839 + 0.5169044379340278
+  Time diff (secs): 1.5805605259888326e-05  Samples:  364.16114518782706
+  No. of PRBs: 51
+  Start symbol: 0
+  No. of symbols: 14
+  UL PRB used: 000000001111111111111111111111111111111111100000000
+Received uplink message for RNTI: 17959 0
+  Slot index: 59
+  Task index: 32379
+  SF length: 23040
+  Offset: 365
+  SNR (dB): 35.038185119628906
+  Time (secs): 1770623839 + 0.5169044379340278
+  Time diff (secs): 1.580823736952968e-05  Samples:  364.22178899396386
+  No. of PRBs: 51
+  Start symbol: 0
+  No. of symbols: 14
+  UL PRB used: 000000000000000000000000000011111111111111100000000
+Received uplink message for RNTI: 17959 0
+  Slot index: 67
+  Task index: 32383
+  SF length: 23040
+  Offset: 365
+  SNR (dB): 25.51178550720215
+  Time (secs): 1770623839 + 0.5209044379340279
+  Time diff (secs): 1.581569674842203e-05  Samples:  364.3936530836436
+  No. of PRBs: 51
+  Start symbol: 0
+  No. of symbols: 14
+  UL PRB used: 000000001111111111100000000000000000000000000000000
+Received uplink message for RNTI: 17959 0
+  Slot index: 107
+  Task index: 32403
+  SF length: 23040
+  Offset: 365
+  SNR (dB): 33.89739227294922
+  Time (secs): 1770623839 + 0.5409044379340278
+  Time diff (secs): 1.5828202281031482e-05  Samples:  364.68178055496537
+  No. of PRBs: 51
+  Start symbol: 0
+  No. of symbols: 14
+  UL PRB used: 000000001111110000000000000000000000000000000000000
+Received uplink message for RNTI: 17959 0
+  Slot index: 347
+  Task index: 32523
+  SF length: 23040
+  Offset: 365
+  SNR (dB): 33.12173080444336
+  Time (secs): 1770623839 + 0.6609044379340278
+  Time diff (secs): 1.5840568123714642e-05  Samples:  364.96668957038537
+  No. of PRBs: 51
+  Start symbol: 0
+  No. of symbols: 14
+  UL PRB used: 000000001111110000000000000000000000000000000000000
+^CInterrupted by user, exiting...
+(base) root@ntu-Legion-Pro-7-16IAX10H:~/sni5gect# ll
+total 22732896
+drwxr-xr-x 1 root root        4096 Feb  9 14:00 ./
+drwx------ 1 root root        4096 Feb  9 14:00 ../
+-rw-r--r-- 1 root root        3368 Jan 20 16:52 .clang-format
+-rw-r--r-- 1 root root        2087 Jan 20 16:52 .clang-tidy
+-rw-r--r-- 1 root root        1172 Jan 20 16:52 .gdbinit
+drwxr-xr-x 1 root root        4096 Feb  6 16:32 .git/
+-rw-r--r-- 1 root root         353 Jan 20 16:52 .gitignore
+drwxr-xr-x 2 root root        4096 Jan 20 16:52 .vscode/
+-rw-r--r-- 1 root root        8201 Jan 20 16:52 CHANGELOG
+-rw-r--r-- 1 root root       28440 Jan 20 16:52 CMakeLists.txt
+-rw-r--r-- 1 root root        6217 Jan 20 16:52 COPYRIGHT
+-rw-r--r-- 1 root root        1167 Jan 20 16:52 CTestConfig.cmake
+-rw-r--r-- 1 root root          88 Jan 20 16:52 CTestCustom.cmake.in
+-rw-r--r-- 1 root root        7219 Jan 20 16:52 Dockerfile
+-rw-r--r-- 1 root root       34520 Jan 20 16:52 LICENSE
+-rw-r--r-- 1 root root       20049 Jan 20 16:52 README.md
+lrwxrwxrwx 1 root root          20 Feb  9 14:00 bin -> /root/wdissector/bin/
+drwxr-xr-x 1 root root        4096 Feb  9 14:00 build/
+-rwxr-xr-x 1 root root         340 Jan 20 16:52 build_trial.sh*
+drwxr-xr-x 3 root root        4096 Jan 20 16:52 cmake/
+-rw-r--r-- 1 root root        1087 Jan 20 16:52 cmake_uninstall.cmake.in
+-rw-r--r-- 1 root root         171 Jan 28 13:57 colored.log
+drwxr-xr-x 1 1000 1000        4096 Feb  3 13:58 configs/
+drwxr-xr-x 4 root root        4096 Jan 20 16:52 debian/
+-rw-r--r-- 1 root root        1275 Jan 20 16:52 docker-compose.yml
+drwxr-xr-x 3 root root        4096 Jan 20 16:52 docs/
+-rw-r--r-- 1 1000 1000  3773030400 Jun  5  2025 example.fc32
+drwxr-xr-x 3 root root        4096 Jan 20 16:52 gui/
+drwxr-xr-x 2 root root        4096 Jan 20 16:52 images/
+-rw-r--r-- 1 root root 19504914624 Jan 30 15:42 keysight_n78.fc32
+drwxr-xr-x 1 root root        4096 Jan 20 16:52 lib/
+-rwxrwxrwx 1 root root       43921 Jan 28 11:05 log_srsRAN_Shijie_20260128.txt*
+drwxr-xr-x 2 root root       69632 Feb  9 15:57 logs/
+-rwxr-xr-x 1 root root        2350 Feb  3 13:51 record.sh*
+drwxr-xr-x 2 root root      126976 Feb  3 15:47 records/
+-rwxr-xr-x 1 root root        1698 Jan 20 16:52 run-clang-format-diff.sh*
+-rwxr-xr-x 1 root root         305 Feb  3 13:51 scanner.sh*
+drwxr-xr-x 1 root root        4096 Feb  3 13:51 scripts/
+drwxr-xr-x 1 root root        4096 Feb  3 13:51 shadower/
+drwxr-xr-x 5 root root        4096 Jan 20 16:52 srsenb/
+drwxr-xr-x 4 root root        4096 Jan 20 16:52 srsepc/
+drwxr-xr-x 4 root root        4096 Jan 20 16:52 srsgnb/
+drwxr-xr-x 4 root root        4096 Jan 20 16:52 srsue/
+drwxr-xr-x 3 root root        4096 Jan 20 16:52 test/
+drwxr-xr-x 3 root root        4096 Jan 20 16:52 utils/
+-rw-r--r-- 1 root root        1960 Feb  9 15:56 wireshark_generic_dissector_traces.txt
+(base) root@ntu-Legion-Pro-7-16IAX10H:~/sni5gect# cd logs
+(base) root@ntu-Legion-Pro-7-16IAX10H:~/sni5gect/logs# ll
+total 5136
+drwxr-xr-x 2 root root  69632 Feb  9 15:57 ./
+drwxr-xr-x 1 root root   4096 Feb  9 14:00 ../
+-rw-r--r-- 1 root root  11367 Feb  9 15:57 UE-17957.pcap
+-rw-r--r-- 1 root root   4096 Feb  9 15:57 UE-17959.pcap
+-rw-r--r-- 1 root root 184320 Feb  9 15:56 pusch_10433_17607.fc32
+-rw-r--r-- 1 root root 184320 Feb  9 15:57 pusch_13703_3667.fc32
+-rw-r--r-- 1 root root 184320 Feb  9 15:57 pusch_13814_3889.fc32
+-rw-r--r-- 1 root root 184320 Feb  9 15:57 pusch_13818_3897.fc32
+-rw-r--r-- 1 root root 184320 Feb  9 15:57 pusch_13819_3899.fc32
+-rw-r--r-- 1 root root 184320 Feb  9 15:57 pusch_13933_4127.fc32
+-rw-r--r-- 1 root root 184320 Feb  9 15:57 pusch_13934_4129.fc32
+-rw-r--r-- 1 root root 184320 Feb  9 15:57 pusch_32258_20297.fc32
+-rw-r--r-- 1 root root 184320 Feb  9 15:57 pusch_32303_20387.fc32
+-rw-r--r-- 1 root root 184320 Feb  9 15:57 pusch_32343_20467.fc32
+-rw-r--r-- 1 root root 184320 Feb  9 15:57 pusch_32363_27.fc32
+-rw-r--r-- 1 root root 184320 Feb  9 15:57 pusch_32378_57.fc32
+-rw-r--r-- 1 root root 184320 Feb  9 15:57 pusch_32379_58.fc32
+-rw-r--r-- 1 root root 184320 Feb  9 15:57 pusch_32379_59.fc32
+-rw-r--r-- 1 root root 184320 Feb  9 15:57 pusch_32383_67.fc32
+-rw-r--r-- 1 root root 184320 Feb  9 15:57 pusch_32403_107.fc32
+-rw-r--r-- 1 root root 184320 Feb  9 15:57 pusch_32523_347.fc32
+-rw-r--r-- 1 root root 184320 Feb  9 15:56 pusch_8428_13597.fc32
+-rw-r--r-- 1 root root 184320 Feb  9 15:56 pusch_8523_13787.fc32
+-rw-r--r-- 1 root root 184320 Feb  9 15:56 pusch_8543_13827.fc32
+-rw-r--r-- 1 root root 184320 Feb  9 15:56 pusch_8583_13907.fc32
+-rw-r--r-- 1 root root 184320 Feb  9 15:56 pusch_8643_14027.fc32
+-rw-r--r-- 1 root root 184320 Feb  9 15:56 pusch_8653_14047.fc32
+-rw-r--r-- 1 root root 184320 Feb  9 15:56 pusch_8683_14107.fc32
+-rw-r--r-- 1 root root 184320 Feb  9 15:56 pusch_8703_14147.fc32
+-rw-r--r-- 1 root root 184320 Feb  9 15:56 pusch_8803_14347.fc32
+-rw-r--r-- 1 root root 184320 Feb  9 15:56 pusch_8823_14387.fc32
+-rw-r--r-- 1 root root 184320 Feb  9 15:56 pusch_8883_14507.fc32
