@@ -77,7 +77,7 @@ Singtel 100M
 Srsran
   ./build/shadower/shadower configs/srsran-n78-20MHz-x310.yaml     
 
-#copy config file
+#copy config file and receiver file
 docker cp configs sni5gect:/root/sni5gect/
 docker cp receiver.py sni5gect:/root/sni5gect/shadower/comp/apis
 
