@@ -31,6 +31,9 @@ echo "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.
 # Update APT package list after adding Docker repository
 sudo apt update
 
+
+sudo apt install -y docker.io
+
 # Install Docker Compose v2 plugin
 sudo apt install -y docker-compose-plugin
 
@@ -57,6 +60,26 @@ docker compose up -d sni5gect
 
 # Enter the running sni5gect container interactively
 docker exec -it sni5gect bash
+
+Set MTU to be 9000 in network settings
+
+#download firmware to USRP
+"/lib/bin/uhd_image_loader" --args="type=x300,addr=192.168.40.2"
+
+  cd shadower/comp/
+  mkdir apis
+
+
+Singtel 20M
+ ./build/shadower/shadower configs/singtel-n1-20MHz.yaml 
+Singtel 100M
+  ./build/shadower/shadower configs/singtel-n78-100MHz.yaml 
+Srsran
+  ./build/shadower/shadower configs/srsran-n78-20MHz-x310.yaml     
+
+#copy config file
+docker cp configs sni5gect:/root/sni5gect/
+docker cp receiver.py sni5gect:/root/sni5gect/shadower/comp/apis
 
 Note:
 GitHub → Settings → Developer settings → Personal access tokens
